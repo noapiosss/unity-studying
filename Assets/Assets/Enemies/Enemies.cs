@@ -5,7 +5,7 @@ public class Enemies : MonoBehaviour
     public Enemy Creature;
     private float spawnColdown = 1f;
     private float timeSinceLastSpawn = 0;
-    private int maxEnemiesCount = 10;
+    private int maxEnemiesCount = 20;
     
     // Start is called before the first frame update
     void Start()

@@ -48,12 +48,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Player\BulletsPool.cs" />
+     <Compile Include="Assets\Assets\Enemies\EnemiesPool.cs" />
      <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
-     <Compile Include="Assets\Scripts\Bullets\Bullet.cs" />
      <Compile Include="Assets\Assets\Enemies\Enemies.cs" />
      <Compile Include="Assets\Assets\UI\HPBar\HealthBar.cs" />
-     <Compile Include="Assets\Assets\Enemies\EnemiesPool.cs" />
-     <Compile Include="Assets\Scripts\Player\BulletsPool.cs" />
+     <Compile Include="Assets\Scripts\Bullets\Bullet.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
